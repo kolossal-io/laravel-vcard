@@ -37,6 +37,6 @@ class Adr extends Property
             $this->countryName,
         ]);
 
-        return "ADR;{$types}:{$parameters}";
+        return "ADR;{$types};CHARSET=UTF-8:{$parameters}";
     }
 }

@@ -10,6 +10,6 @@ class Role extends Property
 
     public function __toString(): string
     {
-        return "ROLE:{$this->role}";
+        return "ROLE;CHARSET=UTF-8:{$this->role}";
     }
 }
